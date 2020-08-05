@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reservation..css">
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Allura&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+          <ul>
+            <li><a  href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a id="reservation" href="reservation.html">Reservation</a></li>
+          </ul>
+        </nav>
+      </header>
+    <section class="booking">
+        <div class="img">
+            <h1>Reservation</h1>
+            <h2>10:00 AM - 7:00 PM</h2>
+          
+        </div>
+        <div class="form">
+            <h1 id="title">Book a Table</h1>
+        <div class="details">
+            <div class="date">
+                <h1>DATE</h1>
+                <input type="date" name="" id="date">
+            </div>
+            <div class="date">
+                <h1>TIME</h1>
+                <input type="time" name="" id="date">
+            </div>
+            <div class="date">
+                <h1>GUESTS</h1>
+                <input type="number" name="" id="date">
+            </div>
+        </div>
+        <div class="form">
+            <h1 id="title1">Contact Details</h1>
+        <div class="details">
+            <div class="date">
+                <h1>Name</h1>
+                <input type="text" name="" id="date">
+            </div>
+            <div class="date">
+                <h1>Email</h1>
+                <input type="email" name="" id="date">
+            </div>
+            <div class="date">
+                <h1>Contact</h1>
+                <input type="contact" name="" id="date">
+            </div>
+        </div>
+             <h1 id="message">Message</h1>
+            <textarea placeholder="Type here" name="" id="area" cols="65" rows="6"></textarea>
+           <div>
+               <button  onclick="function1()" id="book">book</button>
+           </div>
+        </div>
+    </section>
+
+
+    <script>
+           function function1(){
+            document.getElementById("book").disabled="disabled"
+            document.getElementById("book").style.backgroundColor="grey"
+               alert("Booking Successful!!, to verify chekc your mailbox")          
+           }
+    </script>
+</body>
+</html>
